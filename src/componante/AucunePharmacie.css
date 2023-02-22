@@ -1,0 +1,22 @@
+.contentCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 46vh;
+  /* margin-bottom: 30px; */
+}
+.contentCenter p {
+  font-size: 24px;
+}
+.btnApplay {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.btnApplay img {
+  height: 58px;
+  width: 200px;
+  border-radius: 7px;
+}

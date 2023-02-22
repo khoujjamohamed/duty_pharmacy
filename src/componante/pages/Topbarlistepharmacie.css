@@ -1,0 +1,29 @@
+.nav {
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  /* position: sticky; */
+  height: 81px;
+  background-color: #fff;
+  position: relative;
+  z-index: 5;
+}
+
+.log {
+  width: 70%;
+}
+.butnLeft {
+  width: 30%;
+  margin-top: 30px;
+}
+
+.butnLeft .btncontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43px;
+  width: 210px;
+  background-color: rgb(3, 54, 61);
+  color: white;
+}

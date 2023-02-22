@@ -1,0 +1,102 @@
+* {
+  top: 0;
+  left: 0;
+  right: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: rgb(214, 238, 241);
+  padding: 5px;
+  position: sticky;
+  height: 96px;
+  transition: all 0.3s;
+  z-index: 3 !important;
+}
+.navbarUp {
+  top: -96px;
+}
+.navbarDown {
+  top: 0;
+}
+.navbarWhite {
+  background-color: white;
+}
+.navbarShadow {
+  box-shadow: -1px 14px 96px -40px rgba(0, 0, 0, 0.69);
+}
+
+.logo {
+  display: flex;
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 8%;
+  height: 48px;
+}
+.navbar.linkMedo a {
+  text-decoration: none;
+}
+
+.navbar .linkMedo {
+  display: flex;
+  width: 35%;
+  flex-direction: row;
+  column-gap: 15px;
+  margin-top: 22px;
+  cursor: pointer;
+}
+
+.linkMedo .group p {
+  font-family: "Lora", serif;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.linkMedo .group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43px;
+  width: 210px;
+  background-color: rgb(3, 54, 61);
+  color: white;
+}
+.group:hover {
+  background-color: rgb(26, 104, 87);
+  transition: 0.3s;
+}
+
+.linkMedo .conx {
+  margin-top: 9px;
+}
+.linkMedo .conx span {
+  color: rgb(3, 54, 61);
+  font-size: bold;
+  cursor: pointer;
+}
+.linkMedo .conx span:hover {
+  color: rgb(26, 104, 87);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar .linkMedo {
+  display: flex;
+  width: 35%;
+  flex-direction: row;
+  column-gap: 15px;
+  margin-top: 22px;
+  cursor: pointer;
+}

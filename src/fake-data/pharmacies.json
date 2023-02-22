@@ -1,0 +1,72 @@
+[
+  {
+    "pharmacieRating": 4.5,
+    "isLiked": false,
+    "pharmacieImg": "https://img.freepik.com/photos-premium/pharmacien-remplissant-ordonnance-pharmacie_67340-187.jpg?w=2000",
+    "pharmacieName": "Pharmacie Test num 1",
+    "pharmacieDistance": 1,
+    "pharmacieTime": 3,
+    "closeAt": "20:00",
+    "isTopPharma": false
+  },
+  {
+    "pharmacieRating": 3.5,
+    "isLiked": false,
+    "pharmacieImg": "https://www.createurdinterieurs.com/wp-content/uploads/2021/03/acceuil-ilot-pharmacie-amenagement-agencement-officine-agadir-marrakech.jpg",
+    "pharmacieName": "Pharmacie Test num 2",
+    "pharmacieDistance": 1.5,
+    "pharmacieTime": 3,
+    "closeAt": "20:00",
+    "isTopPharma": false
+  },
+  {
+    "pharmacieRating": 3.5,
+    "isLiked": false,
+    "pharmacieImg": "https://www.createurdinterieurs.com/wp-content/uploads/2020/11/amenagment-dinterieur-pharmacies-agadir-et-environs.jpg",
+    "pharmacieName": "Pharmacie Test num 3",
+    "pharmacieDistance": 2,
+    "pharmacieTime": 3,
+    "closeAt": "20:00",
+    "isTopPharma": false
+  },
+  {
+    "pharmacieRating": 5,
+    "isLiked": false,
+    "pharmacieImg": "https://res.cloudinary.com/deunyl3k1/image/upload/s--M5xf3L7R--/c_fill,f_auto,h_650,q_auto,w_800/v1/ville2/mall_common/0001/34/ae00eddeb7adc3309cee1ac13bd934102701ffda.jpeg",
+    "pharmacieName": "Pharmacie Test num 4",
+    "pharmacieDistance": 5,
+    "pharmacieTime": 3,
+    "closeAt": "20:00",
+    "isTopPharma": false
+  },
+  {
+    "pharmacieRating": 1.5,
+    "isLiked": false,
+    "pharmacieImg": "https://content.avito.ma/classifieds/images/10077906136?t=images",
+    "pharmacieName": "Pharmacie Test num 5",
+    "pharmacieDistance": 5,
+    "pharmacieTime": 3,
+    "closeAt": "20:00",
+    "isTopPharma": false
+  },
+  {
+    "pharmacieRating": 3.5,
+    "isLiked": false,
+    "pharmacieImg": "https://www.effearredamenti.com/wp-content/uploads/2021/06/010-Arredamenti-Per-Farmacie.jpg",
+    "pharmacieName": "Pharmacie Test num 6",
+    "pharmacieDistance": 0.5,
+    "pharmacieTime": 3,
+    "closeAt": "20:00",
+    "isTopPharma": false
+  },
+  {
+    "pharmacieRating": 3.5,
+    "isLiked": false,
+    "pharmacieImg": "https://www.createurdinterieurs.com/wp-content/uploads/2021/03/acceuil-ilot-pharmacie-amenagement-agencement-officine-agadir-marrakech.jpg",
+    "pharmacieName": "Pharmacie Test num 2",
+    "pharmacieDistance": 1.5,
+    "pharmacieTime": 3,
+    "closeAt": "20:00",
+    "isTopPharma": false
+  }
+]

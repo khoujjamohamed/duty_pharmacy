@@ -1,0 +1,90 @@
+.datepicker button {
+  border-radius: 30px;
+}
+.react-calendar__month-view__days__day:hover {
+  background-color: #03363d !important;
+}
+
+.react-calendar {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  height: 290px;
+  background-color: transparent;
+}
+
+.react-calendar__tile--active {
+  background-color: #03363d !important;
+}
+.react-calendar__month-view__weekdays__weekday {
+  color: rgb(191, 190, 190) !important;
+}
+
+.datepicker {
+  background-color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 17px;
+  position: absolute;
+  width: 404px;
+  top: 70px;
+  height: 500px;
+  float: right;
+}
+@media screen and (max-width: 600px) {
+  .datepicker {
+    width: auto;
+    top: 66px;
+  }
+  .btnDays button {
+    padding: 6px 4px 10px !important;
+    font-size: 14px !important;
+  }
+}
+.btnDays {
+  display: flex;
+  flex-direction: center;
+  column-gap: 15px;
+  justify-content: space-between;
+}
+
+.btnDays button {
+  font-size: 17px;
+  outline: none;
+  border: 1px solid rgb(219, 219, 219);
+  background-color: transparent;
+  border-color: rgb(214, 214, 214);
+  cursor: pointer;
+  padding: 5px 12px 10px;
+  margin-bottom: 19px;
+}
+.btnDays button:focus {
+  border: 1 solid rgb(15, 15, 15);
+}
+
+.btnDays button:focus {
+  border-color: black;
+}
+
+.content span {
+  color: black;
+}
+.react-calendar__tile--now {
+  background-color: #03363d;
+}
+.react-calendar__month-view__days__day--weekend {
+  color: black;
+}
+.react-calendar__month-view__days__day--weekend:focus {
+  color: #fff;
+}
+.react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+  background-color: #fff;
+}
+
+.react-calendar button {
+  margin: 7px;
+}
+/* .react-calendar__navigation button {
+  display: none;
+} */

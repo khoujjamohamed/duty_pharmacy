@@ -1,0 +1,180 @@
+.formInput {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  z-index: 10;
+  /* width: 130%; */
+  /* position: relative; */
+  position: relative;
+}
+@media screen and (max-width: 600px) {
+  .formInput {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  arch1 button {
+    width: 100% !important;
+    position: relative;
+  }
+  .linkMedo .group {
+    display: none;
+  }
+  .content .iconsbtn {
+    display: none;
+  }
+  .content h1 {
+    font-size: 30px;
+    line-height: 30px !important;
+    margin-top: 70px;
+  }
+  .navbar .linkMedo {
+    width: 26% !important;
+  }
+  .logo {
+    margin-left: 2%;
+    height: 40px;
+  }
+  .linkMedo .conx {
+    margin-top: 3px;
+  }
+  .content p {
+    font-size: 15px;
+    text-align: center;
+  }
+}
+/* .formMaps {
+  width: 400px;
+  position: relative;
+} */
+.formInput .form1 {
+  width: 100%;
+  height: 60px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  padding: 7px 11px 8px 22px;
+  /* border-radius: 10px; */
+  width: 400px;
+  /* position: relative; */
+}
+/* .formMap {
+  z-index: 10;
+} */
+.form1radius {
+  border-radius: 40px;
+}
+.hr1 {
+  height: 2px;
+  width: 100%;
+  background-color: rgb(224, 224, 224);
+  margin-top: 1rem;
+}
+.formMaps .listMap {
+  width: 54%;
+  height: 300px;
+  background-color: #f8f8f8;
+  border-radius: 17px;
+  font-family: "Lora", serif;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  /* z-index: 2px; */
+  position: absolute;
+  left: 0;
+  top: 120%;
+}
+
+.listMap img {
+  margin-right: 10px;
+}
+.listMap .forfor {
+  display: flex;
+  align-items: center;
+  padding: 20px 30px 0 30px;
+  cursor: pointer;
+}
+
+.form1 input {
+  outline: none;
+  border: none;
+  height: 50px;
+  background-color: #f8f8f8;
+  width: 100%;
+  font-size: 17px;
+}
+.form1 label {
+  margin-top: 12px;
+}
+
+.formInput .form2 {
+  height: 60px;
+  width: auto;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  padding: 7px 11px 8px 22px;
+  cursor: pointer;
+}
+
+.form2 input {
+  outline: none;
+  border: none;
+  height: 30px;
+
+  background-color: #f8f8f8;
+  /* background-color: transparent; */
+  display: flex;
+}
+.form2 p {
+  font-family: "Lora", serif;
+  font-family: "Nanum Gothic Coding", monospace;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+  margin-top: 13px;
+  font-size: 15px;
+  color: black;
+  width: 8rem;
+  font-weight: 600;
+}
+
+.formapstyle {
+  position: sticky;
+  top: 0;
+  margin-right: 70px;
+}
+
+.search1 button {
+  border: none;
+  outline: none;
+  height: 60px;
+  width: 160px;
+  /* border-radius: 10px; */
+  background-color: #03363d;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+}
+.search1 button:hover {
+  background-color: rgb(26, 104, 87);
+  transition: 0.3s;
+}
+
+.search1 img {
+  margin-top: 10px;
+  /* margin-left: 20px; */
+  /* height: 19px; */
+  margin-right: 12px;
+}
+
+.formcalandar {
+  display: flex;
+  flex-direction: column;
+  /* row-gap: 30px; */
+  /* position: relative; */
+  z-index: 10;
+  width: auto;
+}
